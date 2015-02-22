@@ -1,0 +1,39 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x6d0b7180, pid=3172, tid=3064
+#
+# JRE version: 6.0_27-b07
+# Java VM: Java HotSpot(TM) Client VM (20.2-b06 mixed mode, sharing windows-x86 )
+# Problematic frame:
+# C  [awt.dll+0xb7180]
+#
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x03f5bc00):  JavaThread "AWT-Windows" daemon [_thread_in_native, id=3064, stack(0x042f0000,0x04340000)]
+
+siginfo: ExceptionCode=0xc0000005, reading address 0x00000000
+
+Registers:
+EAX=0x0433f5b0, EBX=0x03f60d68, ECX=0x00000096, EDX=0x00000180
+ESP=0x0433f598, EBP=0x0433f708, ESI=0x00000000, EDI=0x00000180
+EIP=0x6d0b7180, EFLAGS=0x00010202
+
+Top of Stack: (sp=0x0433f598)
+0x0433f598:   0433f5b0 00001000 00000000 03f5e278
+0x0433f5a8:   03f5e200 00000280 000001e0 6d0af66c
+0x0433f5b8:   00000000 03f5f068 01ab3d80 03f5e278
+0x0433f5c8:   6d0b3de3 00000000 00009825 03f5bd28
+0x0433f5d8:   00000001 00000280 0433f66c 778b629b
+0x0433f5e8:   00000280 00000000 03f5bc00 03f5bd28
+0x0433f5f8:   01a263b8 01a70a46 00000000 00009806
+0x0433f608:   01aa9fb8 00000000 00000000 293b3fe0 
+
+Instructions: (pc=0x6d0b7180)
+0x6d0b7160:   d8 56 8b b3 10 
