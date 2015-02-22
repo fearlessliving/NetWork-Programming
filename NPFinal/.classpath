@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="F:/Downloads/apache-harmony-5.0-jdk-r991518-windows-x86-snapshot.zip"/>
+	<classpathentry kind="lib" path="F:/Downloads/apache-harmony-5.0-jre-r991518-windows-x86-snapshot.zip"/>
+	<classpathentry kind="lib" path="D:/aist_ph/Eclipse/workspace/NP2012MileStone3/sqlitejdbc-v056.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
